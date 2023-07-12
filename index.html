@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="my-button.js"></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      button {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 12px;
+        min-width: 180px;
+        border-radius: 12px;
+      }
+      button.primary {
+        background-color: #0b66fa;
+        color: #fff;
+        border: 0;
+      }
+      button.secondary {
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        background-color: #fff;
+        color: #000000de;
+      }
+    </style>
+  </head>
+
+  <body>
+    <my-button something="title"></my-button>
+  </body>
+</html>
