@@ -31,7 +31,7 @@ class AehBelka extends LitElement{
             flex-direction: row;
             justify-content: space-around;
             padding: 1.25rem 3rem;
-            background-color: #fff;
+            background-color: #c2d1e9;
             box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
             align-items: center;
             font-weight: bold;
