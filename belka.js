@@ -49,7 +49,7 @@ class AehBelka extends LitElement{
           }
     
           .belka-title {
-            font-size: 1.3rem;
+            font-size: 1rem;
           }
           .belka-help {
             font-size: 0.8rem;
